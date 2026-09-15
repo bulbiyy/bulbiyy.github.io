@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="O'CONNELL / GAME DAY">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="109" width="800" height="108" fill="#000" opacity="0.07"/>
+  <rect x="0" y="539" width="800" height="61" fill="#000" opacity="0.04"/>
+  <rect x="0" y="261" width="800" height="67" fill="#000" opacity="0.07"/>
+  <rect x="0" y="460" width="800" height="68" fill="#000" opacity="0.05"/>
+  <rect x="0" y="406" width="800" height="80" fill="#000" opacity="0.07"/>
+  <rect x="161" y="174" width="137" height="140" fill="#1B1B14" opacity="0.16"/>
+  <rect x="306" y="224" width="241" height="192" fill="#1B1B14" opacity="0.13"/>
+  <rect x="321" y="124" width="82" height="77" fill="#1B1B14" opacity="0.12"/>
+  <rect x="385" y="54" width="101" height="130" fill="#1B1B14" opacity="0.14"/>
+  <rect x="431" y="246" width="229" height="172" fill="#1B1B14" opacity="0.26"/>
+  <rect x="136" y="368" width="255" height="88" fill="#1B1B14" opacity="0.20"/>
+  <rect x="412" y="132" width="104" height="184" fill="#1B1B14" opacity="0.19"/>
+  <circle cx="278" cy="218" r="83" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.32"/>
+  <circle cx="576" cy="488" r="62" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.29"/>
+  <circle cx="184" cy="142" r="37" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.24"/>
+  <circle cx="201" cy="94" r="46" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.34"/>
+  <path d="M116 538L600 95" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M435 491L701 172" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M547 395L466 316" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M496 470L447 427" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M609 97L262 485" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M403 241L460 500" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M68 582L146 500" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M720 273L585 451" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M19 415L433 21" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">O'CONNELL / GAME DAY</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

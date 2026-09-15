@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="HONORS / COHORT">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="68" width="800" height="74" fill="#000" opacity="0.05"/>
+  <rect x="0" y="113" width="800" height="71" fill="#000" opacity="0.07"/>
+  <rect x="0" y="523" width="800" height="36" fill="#000" opacity="0.06"/>
+  <rect x="0" y="282" width="800" height="49" fill="#000" opacity="0.05"/>
+  <rect x="0" y="46" width="800" height="110" fill="#000" opacity="0.06"/>
+  <rect x="264" y="348" width="153" height="155" fill="#1B1B14" opacity="0.17"/>
+  <rect x="294" y="110" width="104" height="168" fill="#1B1B14" opacity="0.23"/>
+  <rect x="374" y="223" width="148" height="162" fill="#1B1B14" opacity="0.27"/>
+  <rect x="93" y="378" width="185" height="199" fill="#1B1B14" opacity="0.26"/>
+  <rect x="251" y="372" width="96" height="125" fill="#1B1B14" opacity="0.20"/>
+  <rect x="366" y="109" width="204" height="116" fill="#1B1B14" opacity="0.16"/>
+  <rect x="487" y="353" width="205" height="187" fill="#1B1B14" opacity="0.24"/>
+  <circle cx="355" cy="477" r="28" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.30"/>
+  <circle cx="232" cy="85" r="51" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.38"/>
+  <circle cx="390" cy="112" r="32" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.33"/>
+  <circle cx="463" cy="435" r="33" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.28"/>
+  <path d="M335 75L486 197" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M779 436L304 493" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M162 267L450 349" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M106 105L732 416" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M505 467L666 92" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M689 73L662 237" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M249 416L347 537" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M577 9L684 182" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M380 368L105 119" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">HONORS / COHORT</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="O'CONNELL / SETUP">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="213" width="800" height="31" fill="#000" opacity="0.06"/>
+  <rect x="0" y="37" width="800" height="50" fill="#000" opacity="0.08"/>
+  <rect x="0" y="244" width="800" height="32" fill="#000" opacity="0.03"/>
+  <rect x="0" y="150" width="800" height="118" fill="#000" opacity="0.08"/>
+  <rect x="0" y="245" width="800" height="44" fill="#000" opacity="0.05"/>
+  <rect x="404" y="183" width="180" height="127" fill="#1B1B14" opacity="0.16"/>
+  <rect x="251" y="221" width="160" height="117" fill="#1B1B14" opacity="0.16"/>
+  <rect x="563" y="255" width="139" height="176" fill="#1B1B14" opacity="0.25"/>
+  <rect x="541" y="80" width="198" height="152" fill="#1B1B14" opacity="0.18"/>
+  <rect x="362" y="395" width="245" height="175" fill="#1B1B14" opacity="0.17"/>
+  <rect x="107" y="291" width="84" height="110" fill="#1B1B14" opacity="0.13"/>
+  <rect x="216" y="354" width="256" height="64" fill="#1B1B14" opacity="0.15"/>
+  <circle cx="586" cy="157" r="38" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.38"/>
+  <circle cx="484" cy="104" r="35" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.28"/>
+  <circle cx="648" cy="231" r="77" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.38"/>
+  <circle cx="317" cy="171" r="90" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.26"/>
+  <path d="M240 317L318 168" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M641 325L396 487" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M344 452L800 75" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M775 278L485 145" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M118 504L399 385" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M15 266L758 94" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M294 65L42 461" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M60 261L162 511" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M578 492L510 44" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">O'CONNELL / SETUP</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

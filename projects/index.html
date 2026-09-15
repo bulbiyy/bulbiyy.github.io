@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects — Alina Vasina</title>
+<meta name="description" content="Alina Vasina — computer engineering student in Gainesville, Florida. Projects, research and involvement.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<div class="shell" id="shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="sb-inner">
+      <div class="brand">
+        <div class="brand-mark">AV<span class="caret">_</span></div>
+        <button class="sb-toggle" id="closeBtn" aria-label="Hide menu" aria-expanded="true" aria-controls="sidebar">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M7.5 2 3.5 6l4 4"/></svg>
+        </button>
+      </div>
+
+      <nav class="nav" aria-label="Sections">
+        <a href="../about/"><span class="idx">01</span>_ABOUT</a>
+        <a href="../projects/" aria-current="page"><span class="idx">02</span>_PROJECTS</a>
+        <a href="../research/"><span class="idx">03</span>_RESEARCHES</a>
+        <a href="../involvement/"><span class="idx">04</span>_INVOLVEMENT</a>
+        <a href="../resume/"><span class="idx">05</span>_RESUME</a>
+        <a href="../contact/"><span class="idx">06</span>_CONTACT</a>
+      </nav>
+
+      <div class="sb-foot">
+        <div class="meta">
+          <b>USER: ALINA VASINA</b>
+          <b>ROLE: COMPUTER</b>
+          <b>ENGINEERING</b>
+          <b>LOCATION:</b>
+          <b>GAINESVILLE, FL</b>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/" aria-label="GitHub"><svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.6 0 0 3.6 0 8a8 8 0 0 0 5.5 7.6c.4.1.5-.2.5-.4v-1.4c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.9 2.4.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-3.9 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8a7.5 7.5 0 0 1 4 0c1.5-1 2.2-.8 2.2-.8.5 1.1.2 1.9.1 2.1.5.5.8 1.2.8 2.1 0 3-1.8 3.7-3.6 3.9.3.3.5.8.5 1.5v2.2c0 .2.1.5.6.4A8 8 0 0 0 16 8c0-4.4-3.6-8-8-8Z"/></svg></a>
+          <a href="https://www.linkedin.com/" aria-label="LinkedIn"><svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor"><path d="M3.4 5H.9v9h2.5V5ZM2.1 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM15 9.3C15 6.6 13.6 5 11.6 5c-1.1 0-1.9.6-2.3 1.2V5H6.9v9h2.5V9.4c0-1.1.4-1.9 1.4-1.9s1.3.8 1.3 1.9V14H15V9.3Z"/></svg></a>
+          <a href="mailto:alina@example.com" aria-label="Email"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="1" y="3" width="14" height="10"/><path d="m1 4 7 5 7-5"/></svg></a>
+        </div>
+        <div class="sb-legal"><a href="../privacy/">PRIVACY POLICY</a></div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="main">
+    <header class="topbar">
+      <div class="path"><span class="p">&gt;</span> ls projects</div>
+      <div class="right">
+        <span>SYSTEM STATUS: ONLINE<span class="status-dot"></span></span>
+        <span>TIME: <span id="clock">--:--:--</span></span>
+        <span>UPTIME: <span id="uptime">--:--:--</span></span>
+        <span>// 02</span>
+      </div>
+    </header>
+
+    <main class="view">
+      <div class="prompt"><span class="c">&gt;</span> ls projects</div>
+
+      <div class="toolbar">
+        <label class="search">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="7" cy="7" r="5"/><path d="m11 11 4 4"/></svg>
+          <input id="search" type="search" aria-label="Search projects" placeholder="Search by name, description or tag..." autocomplete="off">
+        </label>
+        <div class="filters"><button data-tag="hardware" aria-pressed="false">HARDWARE</button><button data-tag="software" aria-pressed="false">SOFTWARE</button><button data-tag="embedded" aria-pressed="false">EMBEDDED</button><button data-tag="python" aria-pressed="false">PYTHON</button><button data-tag="c" aria-pressed="false">C</button><button data-tag="verilog" aria-pressed="false">VERILOG</button><button data-tag="security" aria-pressed="false">SECURITY</button><button data-tag="research" aria-pressed="false">RESEARCH</button><button data-tag="xr" aria-pressed="false">XR</button><button data-tag="design" aria-pressed="false">DESIGN</button></div>
+      </div>
+      <p class="count" id="count"></p>
+
+      <div class="rows">
+        <article class="row" tabindex="0" role="button" data-modal="p0" data-title="project/ember"
+          data-tags="hardware,embedded,c,iot" data-search="Ember Emergency response monitoring system that tracks first responders indoors using wearable nodes and a central dashboard. hardware,embedded,c,iot">
+          <div class="shot"><img src="../assets/img/ember.svg" alt="Ember"></div>
+          <div class="rbody">
+            <div class="rhead"><span class="h3">Ember</span><span class="year">2026</span></div>
+            <p>Emergency response monitoring system that tracks first responders indoors using wearable nodes and a central dashboard.</p>
+            <div class="rfoot">
+              <div class="tags"><span class="tag hw">HARDWARE</span><span class="tag hw">EMBEDDED</span><span class="tag sw">C</span><span class="tag hw">IOT</span></div>
+              <span class="open">OPEN <svg width="18" height="7" viewBox="0 0 18 7" fill="none" stroke="currentColor" stroke-width="1"><path d="M0 3.5h16M13 1l3 2.5L13 6"/></svg></span>
+            </div>
+          </div>
+          <div class="detail" hidden>
+            <h2 class="h2">Ember</h2>
+            <div class="tags" style="margin-bottom:16px"><span class="tag hw">HARDWARE</span><span class="tag hw">EMBEDDED</span><span class="tag sw">C</span><span class="tag hw">IOT</span></div>
+            <p>Ember is a wearable node and hub system for tracking first responders inside buildings, where GPS stops being useful. Each node carries an IMU, a barometer and a LoRa radio, and reports position estimates back to a hub that a commander watches from outside.</p>
+            <p>I wrote the node firmware in C on an STM32, built the dead-reckoning filter that fuses step detection with barometric floor changes, and put together the Python service that receives packets and feeds the dashboard.</p>
+            <p>The hardest part was radio behaviour through concrete. Tuning the packet schedule so 24 nodes could share one channel without collisions took most of the bench time.</p>
+            <div class="specs"><div><div class="k">NODE COUNT</div><div class="v">24</div></div><div><div class="k">UPTIME</div><div class="v">99.2%</div></div><div><div class="k">LATENCY</div><div class="v">120ms</div></div></div>
+            <div class="gallery"><img src="../assets/img/ember.svg" alt="Ember photo 1"><img src="../assets/img/ember-2.svg" alt="Ember photo 2"><img src="../assets/img/ember-3.svg" alt="Ember photo 3"></div>
+          </div>
+        </article>
+        <article class="row" tabindex="0" role="button" data-modal="p1" data-title="project/xr_cybersecurity_research_rig"
+          data-tags="research,security,python,xr" data-search="XR cybersecurity research rig Test bench for capturing and analysing traffic between an XR headset and its companion services. research,security,python,xr">
+          <div class="shot"><img src="../assets/img/xr.svg" alt="XR cybersecurity research rig"></div>
+          <div class="rbody">
+            <div class="rhead"><span class="h3">XR cybersecurity research rig</span><span class="year">2026</span></div>
+            <p>Test bench for capturing and analysing traffic between an XR headset and its companion services.</p>
+            <div class="rfoot">
+              <div class="tags"><span class="tag sw">RESEARCH</span><span class="tag sw">SECURITY</span><span class="tag sw">PYTHON</span><span class="tag hw">XR</span></div>
+              <span class="open">OPEN <svg width="18" height="7" viewBox="0 0 18 7" fill="none" stroke="currentColor" stroke-width="1"><path d="M0 3.5h16M13 1l3 2.5L13 6"/></svg></span>
+            </div>
+          </div>
+          <div class="detail" hidden>
+            <h2 class="h2">XR cybersecurity research rig</h2>
+            <div class="tags" style="margin-bottom:16px"><span class="tag sw">RESEARCH</span><span class="tag sw">SECURITY</span><span class="tag sw">PYTHON</span><span class="tag hw">XR</span></div>
+            <p>A bench setup for studying what an XR headset actually sends while a user is in a session: spatial data, hand tracking, telemetry, and how much of it leaves the device.</p>
+            <p>I built the capture pipeline and the tooling that turns raw sessions into something readable, then used it to compare behaviour across applications.</p>
+            <p>This is ongoing work. Findings and any write-ups will land on the Researches page.</p>
+            <div class="specs"><div><div class="k">SESSIONS</div><div class="v">40+</div></div><div><div class="k">CAPTURE</div><div class="v">PCAP</div></div><div><div class="k">STATUS</div><div class="v">ACTIVE</div></div></div>
+            <div class="gallery"><img src="../assets/img/xr.svg" alt="XR cybersecurity research rig photo 1"><img src="../assets/img/xr-2.svg" alt="XR cybersecurity research rig photo 2"><img src="../assets/img/xr-3.svg" alt="XR cybersecurity research rig photo 3"></div>
+          </div>
+        </article>
+        <article class="row" tabindex="0" role="button" data-modal="p2" data-title="project/multi-sensor_data_logger"
+          data-tags="hardware,embedded,c,kicad" data-search="Multi-sensor data logger Battery-powered environmental data acquisition system with SD storage and a weatherproof enclosure. hardware,embedded,c,kicad">
+          <div class="shot"><img src="../assets/img/logger.svg" alt="Multi-sensor data logger"></div>
+          <div class="rbody">
+            <div class="rhead"><span class="h3">Multi-sensor data logger</span><span class="year">2025</span></div>
+            <p>Battery-powered environmental data acquisition system with SD storage and a weatherproof enclosure.</p>
+            <div class="rfoot">
+              <div class="tags"><span class="tag hw">HARDWARE</span><span class="tag hw">EMBEDDED</span><span class="tag sw">C</span><span class="tag hw">KICAD</span></div>
+              <span class="open">OPEN <svg width="18" height="7" viewBox="0 0 18 7" fill="none" stroke="currentColor" stroke-width="1"><path d="M0 3.5h16M13 1l3 2.5L13 6"/></svg></span>
+            </div>
+          </div>
+          <div class="detail" hidden>
+            <h2 class="h2">Multi-sensor data logger</h2>
+            <div class="tags" style="margin-bottom:16px"><span class="tag hw">HARDWARE</span><span class="tag hw">EMBEDDED</span><span class="tag sw">C</span><span class="tag hw">KICAD</span></div>
+            <p>A logger built to sit outside for weeks at a time and record temperature, humidity, pressure, light and two analogue channels to an SD card.</p>
+            <p>I designed the board in KiCad, wrote the firmware in C, and spent a lot of the project on power: sleep scheduling, sensor duty cycling, and measuring where the current was actually going.</p>
+            <p>The final build ran 21 days on a single pack, up from four days in the first revision.</p>
+            <div class="specs"><div><div class="k">CHANNELS</div><div class="v">6</div></div><div><div class="k">RUNTIME</div><div class="v">21 days</div></div><div><div class="k">RATE</div><div class="v">10 Hz</div></div></div>
+            <div class="gallery"><img src="../assets/img/logger.svg" alt="Multi-sensor data logger photo 1"><img src="../assets/img/logger-2.svg" alt="Multi-sensor data logger photo 2"><img src="../assets/img/logger-3.svg" alt="Multi-sensor data logger photo 3"></div>
+          </div>
+        </article>
+        <article class="row" tabindex="0" role="button" data-modal="p3" data-title="project/16-bit_cpu_on_fpga"
+          data-tags="hardware,verilog,architecture" data-search="16-bit CPU on FPGA A small processor designed in Verilog, from instruction set to assembler to demo programs. hardware,verilog,architecture">
+          <div class="shot"><img src="../assets/img/fpga.svg" alt="16-bit CPU on FPGA"></div>
+          <div class="rbody">
+            <div class="rhead"><span class="h3">16-bit CPU on FPGA</span><span class="year">2025</span></div>
+            <p>A small processor designed in Verilog, from instruction set to assembler to demo programs.</p>
+            <div class="rfoot">
+              <div class="tags"><span class="tag hw">HARDWARE</span><span class="tag hw">VERILOG</span><span class="tag sw">ARCHITECTURE</span></div>
+              <span class="open">OPEN <svg width="18" height="7" viewBox="0 0 18 7" fill="none" stroke="currentColor" stroke-width="1"><path d="M0 3.5h16M13 1l3 2.5L13 6"/></svg></span>
+            </div>
+          </div>
+          <div class="detail" hidden>
+            <h2 class="h2">16-bit CPU on FPGA</h2>
+            <div class="tags" style="margin-bottom:16px"><span class="tag hw">HARDWARE</span><span class="tag hw">VERILOG</span><span class="tag sw">ARCHITECTURE</span></div>
+            <p>A five-stage pipelined processor with its own instruction set, built from scratch in Verilog and synthesised onto an FPGA.</p>
+            <p>Alongside the hardware I wrote a small assembler in Python so programs could be written in something more pleasant than hex, plus a testbench suite that checks each instruction against an expected register trace.</p>
+            <p>Hazard handling was the real lesson here — the forwarding logic took three rewrites before the pipeline behaved.</p>
+            <div class="specs"><div><div class="k">WIDTH</div><div class="v">16-bit</div></div><div><div class="k">CLOCK</div><div class="v">50 MHz</div></div><div><div class="k">STAGES</div><div class="v">5</div></div></div>
+            <div class="gallery"><img src="../assets/img/fpga.svg" alt="16-bit CPU on FPGA photo 1"><img src="../assets/img/fpga-2.svg" alt="16-bit CPU on FPGA photo 2"><img src="../assets/img/fpga-3.svg" alt="16-bit CPU on FPGA photo 3"></div>
+          </div>
+        </article>
+        <article class="row" tabindex="0" role="button" data-modal="p4" data-title="project/flight_control_dashboard"
+          data-tags="software,python,fastapi,data" data-search="Flight control dashboard Real-time telemetry viewer for a small aircraft, streaming live plots over a websocket. software,python,fastapi,data">
+          <div class="shot"><img src="../assets/img/dashboard.svg" alt="Flight control dashboard"></div>
+          <div class="rbody">
+            <div class="rhead"><span class="h3">Flight control dashboard</span><span class="year">2024</span></div>
+            <p>Real-time telemetry viewer for a small aircraft, streaming live plots over a websocket.</p>
+            <div class="rfoot">
+              <div class="tags"><span class="tag sw">SOFTWARE</span><span class="tag sw">PYTHON</span><span class="tag sw">FASTAPI</span><span class="tag sw">DATA</span></div>
+              <span class="open">OPEN <svg width="18" height="7" viewBox="0 0 18 7" fill="none" stroke="currentColor" stroke-width="1"><path d="M0 3.5h16M13 1l3 2.5L13 6"/></svg></span>
+            </div>
+          </div>
+          <div class="detail" hidden>
+            <h2 class="h2">Flight control dashboard</h2>
+            <div class="tags" style="margin-bottom:16px"><span class="tag sw">SOFTWARE</span><span class="tag sw">PYTHON</span><span class="tag sw">FASTAPI</span><span class="tag sw">DATA</span></div>
+            <p>A dashboard that takes a telemetry stream and turns it into something a person can read while the vehicle is still in the air: attitude, battery, link quality and sensor health, all updating live.</p>
+            <p>Built with FastAPI and websockets on the backend, with a plain JavaScript frontend so it runs on a laptop in the field with no build step.</p>
+            <p>It also records every session to disk, so a flight can be replayed frame by frame afterwards.</p>
+            <div class="specs"><div><div class="k">REFRESH</div><div class="v">20 Hz</div></div><div><div class="k">STREAMS</div><div class="v">12</div></div><div><div class="k">STACK</div><div class="v">FastAPI</div></div></div>
+            <div class="gallery"><img src="../assets/img/dashboard.svg" alt="Flight control dashboard photo 1"><img src="../assets/img/dashboard-2.svg" alt="Flight control dashboard photo 2"><img src="../assets/img/dashboard-3.svg" alt="Flight control dashboard photo 3"></div>
+          </div>
+        </article>
+        <article class="row" tabindex="0" role="button" data-modal="p5" data-title="project/jewelry_project,_deti_mba"
+          data-tags="design,social impact" data-search="Jewelry project, Deti MBA A product and campaign concept supporting women facing violence and street harassment, developed and pitched through Deti MBA. design,social impact">
+          <div class="shot"><img src="../assets/img/jewelry.svg" alt="Jewelry project, Deti MBA"></div>
+          <div class="rbody">
+            <div class="rhead"><span class="h3">Jewelry project, Deti MBA</span><span class="year">2021</span></div>
+            <p>A product and campaign concept supporting women facing violence and street harassment, developed and pitched through Deti MBA.</p>
+            <div class="rfoot">
+              <div class="tags"><span class="tag sw">DESIGN</span><span class="tag hw">SOCIAL IMPACT</span></div>
+              <span class="open">OPEN <svg width="18" height="7" viewBox="0 0 18 7" fill="none" stroke="currentColor" stroke-width="1"><path d="M0 3.5h16M13 1l3 2.5L13 6"/></svg></span>
+            </div>
+          </div>
+          <div class="detail" hidden>
+            <h2 class="h2">Jewelry project, Deti MBA</h2>
+            <div class="tags" style="margin-bottom:16px"><span class="tag sw">DESIGN</span><span class="tag hw">SOCIAL IMPACT</span></div>
+            <p>A jewelry line designed as a quiet signal and a fundraising mechanism for women facing violence and street harassment.</p>
+            <p>I developed the concept, the product design and the business case, then presented it as part of the Deti MBA program.</p>
+            <p>It was my first experience taking an idea from a social problem all the way to a pitch, and it shaped how I approach engineering projects now.</p>
+            <div class="specs"><div><div class="k">PROGRAM</div><div class="v">Deti MBA</div></div><div><div class="k">YEAR</div><div class="v">2021</div></div><div><div class="k">OUTCOME</div><div class="v">Pitched</div></div></div>
+            <div class="gallery"><img src="../assets/img/jewelry.svg" alt="Jewelry project, Deti MBA photo 1"><img src="../assets/img/jewelry-2.svg" alt="Jewelry project, Deti MBA photo 2"><img src="../assets/img/jewelry-3.svg" alt="Jewelry project, Deti MBA photo 3"></div>
+          </div>
+        </article>
+      </div>
+      <div class="empty hide" id="empty">Nothing matches that filter. Clear the search or the active tag.</div>
+
+    </main>
+
+    <footer class="pagefoot">
+      <span>© 2026 ALINA VASINA</span>
+      <span>BUILDING THE FUTURE, LINE BY LINE.</span>
+      <span><a href="../privacy/">PRIVACY POLICY</a></span>
+    </footer>
+  </div>
+</div>
+
+<button class="opener" id="openBtn" aria-label="Show menu" aria-expanded="false" aria-controls="sidebar">
+  <svg width="14" height="12" viewBox="0 0 14 12" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M0 1h14M0 6h14M0 11h14"/></svg>
+</button>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Details" hidden>
+  <div class="modal-box">
+    <div class="modal-head">
+      <span class="mt"></span>
+      <button class="modal-close" aria-label="Close">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 1l10 10M11 1L1 11"/></svg>
+      </button>
+    </div>
+    <div class="modal-body"></div>
+  </div>
+</div>
+
+<script src="../assets/js/site.js"></script>
+</body>
+</html>

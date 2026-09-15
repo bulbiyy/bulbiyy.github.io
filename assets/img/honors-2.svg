@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="HONORS / SYMPOSIUM">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="561" width="800" height="70" fill="#000" opacity="0.04"/>
+  <rect x="0" y="547" width="800" height="68" fill="#000" opacity="0.07"/>
+  <rect x="0" y="517" width="800" height="54" fill="#000" opacity="0.07"/>
+  <rect x="0" y="446" width="800" height="51" fill="#000" opacity="0.04"/>
+  <rect x="0" y="110" width="800" height="93" fill="#000" opacity="0.06"/>
+  <rect x="263" y="301" width="222" height="190" fill="#1B1B14" opacity="0.13"/>
+  <rect x="262" y="54" width="98" height="168" fill="#1B1B14" opacity="0.11"/>
+  <rect x="550" y="384" width="121" height="92" fill="#1B1B14" opacity="0.11"/>
+  <rect x="338" y="213" width="258" height="146" fill="#1B1B14" opacity="0.12"/>
+  <rect x="284" y="179" width="147" height="63" fill="#1B1B14" opacity="0.27"/>
+  <rect x="329" y="363" width="115" height="150" fill="#1B1B14" opacity="0.22"/>
+  <rect x="219" y="142" width="182" height="130" fill="#1B1B14" opacity="0.10"/>
+  <circle cx="179" cy="227" r="63" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.31"/>
+  <circle cx="199" cy="478" r="40" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.23"/>
+  <circle cx="417" cy="321" r="66" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.35"/>
+  <circle cx="193" cy="476" r="27" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.35"/>
+  <path d="M432 429L324 0" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M596 415L481 438" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M619 264L158 377" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M197 477L577 228" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M648 584L168 228" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M158 162L283 594" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M750 445L582 540" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M562 401L590 439" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M785 12L465 542" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">HONORS / SYMPOSIUM</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

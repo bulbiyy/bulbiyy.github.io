@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="LOGGER / ENCLOSURE">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="221" width="800" height="88" fill="#000" opacity="0.06"/>
+  <rect x="0" y="494" width="800" height="96" fill="#000" opacity="0.05"/>
+  <rect x="0" y="465" width="800" height="33" fill="#000" opacity="0.07"/>
+  <rect x="0" y="37" width="800" height="51" fill="#000" opacity="0.08"/>
+  <rect x="0" y="352" width="800" height="46" fill="#000" opacity="0.04"/>
+  <rect x="97" y="126" width="92" height="152" fill="#1B1B14" opacity="0.14"/>
+  <rect x="242" y="157" width="112" height="95" fill="#1B1B14" opacity="0.16"/>
+  <rect x="365" y="301" width="249" height="163" fill="#1B1B14" opacity="0.28"/>
+  <rect x="96" y="210" width="151" height="99" fill="#1B1B14" opacity="0.12"/>
+  <rect x="462" y="238" width="192" height="123" fill="#1B1B14" opacity="0.22"/>
+  <rect x="198" y="66" width="194" height="182" fill="#1B1B14" opacity="0.14"/>
+  <rect x="392" y="343" width="138" height="96" fill="#1B1B14" opacity="0.11"/>
+  <circle cx="177" cy="500" r="32" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.35"/>
+  <circle cx="485" cy="360" r="67" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.24"/>
+  <circle cx="137" cy="276" r="79" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.21"/>
+  <circle cx="270" cy="181" r="68" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.32"/>
+  <path d="M673 195L485 227" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M535 491L359 177" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M496 205L617 309" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M98 433L67 399" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M386 79L303 129" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M667 409L234 471" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M612 243L318 240" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M195 480L498 436" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M234 183L222 574" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">LOGGER / ENCLOSURE</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

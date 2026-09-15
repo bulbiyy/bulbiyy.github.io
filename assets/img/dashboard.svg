@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="TELEMETRY DASHBOARD">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="491" width="800" height="119" fill="#000" opacity="0.04"/>
+  <rect x="0" y="292" width="800" height="55" fill="#000" opacity="0.03"/>
+  <rect x="0" y="260" width="800" height="99" fill="#000" opacity="0.05"/>
+  <rect x="0" y="381" width="800" height="81" fill="#000" opacity="0.04"/>
+  <rect x="0" y="245" width="800" height="92" fill="#000" opacity="0.07"/>
+  <rect x="120" y="352" width="188" height="166" fill="#1B1B14" opacity="0.23"/>
+  <rect x="490" y="219" width="83" height="182" fill="#1B1B14" opacity="0.15"/>
+  <rect x="385" y="352" width="246" height="118" fill="#1B1B14" opacity="0.23"/>
+  <rect x="576" y="112" width="105" height="160" fill="#1B1B14" opacity="0.24"/>
+  <rect x="78" y="388" width="215" height="81" fill="#1B1B14" opacity="0.13"/>
+  <rect x="195" y="175" width="218" height="73" fill="#1B1B14" opacity="0.13"/>
+  <rect x="55" y="271" width="118" height="148" fill="#1B1B14" opacity="0.26"/>
+  <circle cx="668" cy="292" r="34" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.25"/>
+  <circle cx="528" cy="497" r="85" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.26"/>
+  <circle cx="449" cy="160" r="59" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.22"/>
+  <circle cx="445" cy="344" r="33" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.29"/>
+  <path d="M174 212L782 500" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M569 93L342 346" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M782 58L402 351" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M651 117L309 260" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M569 84L307 467" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M474 291L525 120" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M599 23L291 221" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M791 489L567 555" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M701 123L3 58" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">TELEMETRY DASHBOARD</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

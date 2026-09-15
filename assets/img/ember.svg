@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="EMBER / SENSOR NODE">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="243" width="800" height="105" fill="#000" opacity="0.06"/>
+  <rect x="0" y="378" width="800" height="107" fill="#000" opacity="0.05"/>
+  <rect x="0" y="594" width="800" height="38" fill="#000" opacity="0.06"/>
+  <rect x="0" y="480" width="800" height="63" fill="#000" opacity="0.06"/>
+  <rect x="0" y="196" width="800" height="90" fill="#000" opacity="0.06"/>
+  <rect x="527" y="243" width="243" height="98" fill="#1B1B14" opacity="0.14"/>
+  <rect x="195" y="307" width="179" height="63" fill="#1B1B14" opacity="0.22"/>
+  <rect x="105" y="121" width="231" height="70" fill="#1B1B14" opacity="0.15"/>
+  <rect x="71" y="177" width="201" height="159" fill="#1B1B14" opacity="0.23"/>
+  <rect x="477" y="242" width="227" height="173" fill="#1B1B14" opacity="0.27"/>
+  <rect x="177" y="227" width="104" height="69" fill="#1B1B14" opacity="0.12"/>
+  <rect x="262" y="172" width="252" height="171" fill="#1B1B14" opacity="0.24"/>
+  <circle cx="388" cy="295" r="90" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.36"/>
+  <circle cx="667" cy="259" r="78" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.31"/>
+  <circle cx="424" cy="429" r="29" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.37"/>
+  <circle cx="700" cy="423" r="46" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.33"/>
+  <path d="M334 554L585 582" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M106 216L648 587" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M273 291L127 64" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M493 495L90 352" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M68 420L154 20" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M300 437L787 425" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M121 45L619 46" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M386 600L338 564" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M285 517L241 36" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">EMBER / SENSOR NODE</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

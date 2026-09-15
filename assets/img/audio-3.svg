@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="AUDIO / MIX SESSION">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="12" width="800" height="90" fill="#000" opacity="0.04"/>
+  <rect x="0" y="402" width="800" height="48" fill="#000" opacity="0.06"/>
+  <rect x="0" y="142" width="800" height="44" fill="#000" opacity="0.06"/>
+  <rect x="0" y="142" width="800" height="48" fill="#000" opacity="0.08"/>
+  <rect x="0" y="33" width="800" height="114" fill="#000" opacity="0.03"/>
+  <rect x="276" y="314" width="194" height="194" fill="#1B1B14" opacity="0.17"/>
+  <rect x="135" y="100" width="85" height="163" fill="#1B1B14" opacity="0.16"/>
+  <rect x="250" y="209" width="180" height="153" fill="#1B1B14" opacity="0.21"/>
+  <rect x="292" y="147" width="135" height="166" fill="#1B1B14" opacity="0.21"/>
+  <rect x="101" y="66" width="126" height="151" fill="#1B1B14" opacity="0.12"/>
+  <rect x="191" y="232" width="87" height="82" fill="#1B1B14" opacity="0.23"/>
+  <rect x="489" y="373" width="135" height="113" fill="#1B1B14" opacity="0.24"/>
+  <circle cx="456" cy="179" r="68" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.32"/>
+  <circle cx="304" cy="326" r="31" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.24"/>
+  <circle cx="380" cy="251" r="76" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.29"/>
+  <circle cx="403" cy="189" r="38" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.35"/>
+  <path d="M313 180L573 558" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M690 302L95 177" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M197 29L615 383" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M712 97L685 408" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M291 312L664 201" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M116 465L207 341" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M455 412L49 575" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M731 120L274 101" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M652 122L198 205" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">AUDIO / MIX SESSION</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

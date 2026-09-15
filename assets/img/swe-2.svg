@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="SWE / OUTREACH">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="143" width="800" height="61" fill="#000" opacity="0.03"/>
+  <rect x="0" y="457" width="800" height="53" fill="#000" opacity="0.07"/>
+  <rect x="0" y="353" width="800" height="40" fill="#000" opacity="0.04"/>
+  <rect x="0" y="50" width="800" height="70" fill="#000" opacity="0.08"/>
+  <rect x="0" y="183" width="800" height="100" fill="#000" opacity="0.06"/>
+  <rect x="480" y="64" width="227" height="65" fill="#1B1B14" opacity="0.21"/>
+  <rect x="358" y="255" width="128" height="106" fill="#1B1B14" opacity="0.25"/>
+  <rect x="102" y="397" width="163" height="145" fill="#1B1B14" opacity="0.15"/>
+  <rect x="442" y="199" width="246" height="191" fill="#1B1B14" opacity="0.13"/>
+  <rect x="317" y="381" width="257" height="107" fill="#1B1B14" opacity="0.18"/>
+  <rect x="390" y="312" width="88" height="167" fill="#1B1B14" opacity="0.27"/>
+  <rect x="558" y="185" width="212" height="164" fill="#1B1B14" opacity="0.17"/>
+  <circle cx="269" cy="237" r="73" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.27"/>
+  <circle cx="105" cy="232" r="81" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.35"/>
+  <circle cx="620" cy="298" r="37" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.20"/>
+  <circle cx="534" cy="262" r="38" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.27"/>
+  <path d="M412 59L201 524" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M244 410L6 98" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M469 198L175 30" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M559 385L357 183" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M336 365L644 195" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M454 37L64 548" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M137 206L671 103" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M53 199L420 124" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M151 471L44 122" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">SWE / OUTREACH</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="URI / VOLUNTEERS">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="214" width="800" height="63" fill="#000" opacity="0.05"/>
+  <rect x="0" y="199" width="800" height="58" fill="#000" opacity="0.05"/>
+  <rect x="0" y="576" width="800" height="30" fill="#000" opacity="0.06"/>
+  <rect x="0" y="260" width="800" height="116" fill="#000" opacity="0.05"/>
+  <rect x="0" y="182" width="800" height="33" fill="#000" opacity="0.04"/>
+  <rect x="115" y="227" width="82" height="87" fill="#1B1B14" opacity="0.18"/>
+  <rect x="472" y="89" width="180" height="191" fill="#1B1B14" opacity="0.20"/>
+  <rect x="313" y="74" width="197" height="170" fill="#1B1B14" opacity="0.15"/>
+  <rect x="368" y="329" width="80" height="71" fill="#1B1B14" opacity="0.22"/>
+  <rect x="532" y="356" width="242" height="157" fill="#1B1B14" opacity="0.24"/>
+  <rect x="329" y="238" width="247" height="149" fill="#1B1B14" opacity="0.19"/>
+  <rect x="482" y="76" width="124" height="136" fill="#1B1B14" opacity="0.27"/>
+  <circle cx="375" cy="200" r="38" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.27"/>
+  <circle cx="563" cy="342" r="37" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.27"/>
+  <circle cx="96" cy="450" r="79" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.18"/>
+  <circle cx="700" cy="375" r="74" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.33"/>
+  <path d="M761 568L638 226" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M120 554L451 207" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M529 232L735 247" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M134 555L91 500" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M338 521L287 222" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M513 193L597 145" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M183 175L370 329" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M292 183L40 124" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M216 578L64 227" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">URI / VOLUNTEERS</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

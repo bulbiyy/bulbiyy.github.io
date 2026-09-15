@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="RED CROSS / TRAINING">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="418" width="800" height="96" fill="#000" opacity="0.06"/>
+  <rect x="0" y="119" width="800" height="52" fill="#000" opacity="0.05"/>
+  <rect x="0" y="296" width="800" height="33" fill="#000" opacity="0.04"/>
+  <rect x="0" y="582" width="800" height="31" fill="#000" opacity="0.04"/>
+  <rect x="0" y="526" width="800" height="118" fill="#000" opacity="0.08"/>
+  <rect x="427" y="342" width="183" height="143" fill="#1B1B14" opacity="0.16"/>
+  <rect x="386" y="184" width="238" height="100" fill="#1B1B14" opacity="0.12"/>
+  <rect x="111" y="341" width="104" height="129" fill="#1B1B14" opacity="0.27"/>
+  <rect x="150" y="360" width="154" height="68" fill="#1B1B14" opacity="0.16"/>
+  <rect x="138" y="284" width="201" height="108" fill="#1B1B14" opacity="0.13"/>
+  <rect x="304" y="166" width="92" height="71" fill="#1B1B14" opacity="0.22"/>
+  <rect x="486" y="59" width="257" height="144" fill="#1B1B14" opacity="0.17"/>
+  <circle cx="562" cy="402" r="84" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.31"/>
+  <circle cx="633" cy="157" r="55" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.29"/>
+  <circle cx="434" cy="395" r="31" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.24"/>
+  <circle cx="89" cy="194" r="27" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.31"/>
+  <path d="M618 569L556 288" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M365 577L203 414" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M114 369L348 115" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M229 60L443 49" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M692 485L125 146" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M183 5L634 300" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M660 64L278 76" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M6 445L280 182" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M704 536L641 197" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">RED CROSS / TRAINING</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

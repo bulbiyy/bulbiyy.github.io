@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="SWE / CONFERENCE">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="296" width="800" height="40" fill="#000" opacity="0.03"/>
+  <rect x="0" y="314" width="800" height="84" fill="#000" opacity="0.05"/>
+  <rect x="0" y="366" width="800" height="46" fill="#000" opacity="0.07"/>
+  <rect x="0" y="273" width="800" height="86" fill="#000" opacity="0.03"/>
+  <rect x="0" y="465" width="800" height="33" fill="#000" opacity="0.04"/>
+  <rect x="550" y="255" width="85" height="191" fill="#1B1B14" opacity="0.21"/>
+  <rect x="481" y="223" width="94" height="112" fill="#1B1B14" opacity="0.24"/>
+  <rect x="417" y="376" width="124" height="115" fill="#1B1B14" opacity="0.27"/>
+  <rect x="411" y="329" width="174" height="132" fill="#1B1B14" opacity="0.22"/>
+  <rect x="361" y="333" width="101" height="181" fill="#1B1B14" opacity="0.13"/>
+  <rect x="534" y="342" width="194" height="101" fill="#1B1B14" opacity="0.13"/>
+  <rect x="222" y="313" width="162" height="193" fill="#1B1B14" opacity="0.14"/>
+  <circle cx="197" cy="122" r="38" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.27"/>
+  <circle cx="661" cy="221" r="61" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.36"/>
+  <circle cx="418" cy="135" r="73" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.38"/>
+  <circle cx="635" cy="236" r="84" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.30"/>
+  <path d="M264 153L109 122" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M724 504L243 336" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M558 145L763 102" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M392 171L460 34" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M57 426L402 23" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M166 231L703 13" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M227 58L551 455" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M766 95L354 16" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M386 502L197 37" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">SWE / CONFERENCE</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

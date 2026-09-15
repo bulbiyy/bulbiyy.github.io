@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="DASHBOARD / REPLAY">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="594" width="800" height="55" fill="#000" opacity="0.04"/>
+  <rect x="0" y="205" width="800" height="35" fill="#000" opacity="0.04"/>
+  <rect x="0" y="415" width="800" height="75" fill="#000" opacity="0.08"/>
+  <rect x="0" y="266" width="800" height="87" fill="#000" opacity="0.07"/>
+  <rect x="0" y="429" width="800" height="66" fill="#000" opacity="0.07"/>
+  <rect x="147" y="46" width="205" height="114" fill="#1B1B14" opacity="0.18"/>
+  <rect x="115" y="271" width="221" height="156" fill="#1B1B14" opacity="0.22"/>
+  <rect x="103" y="91" width="250" height="94" fill="#1B1B14" opacity="0.15"/>
+  <rect x="228" y="190" width="159" height="104" fill="#1B1B14" opacity="0.21"/>
+  <rect x="288" y="388" width="99" height="100" fill="#1B1B14" opacity="0.14"/>
+  <rect x="168" y="106" width="113" height="118" fill="#1B1B14" opacity="0.11"/>
+  <rect x="296" y="384" width="105" height="182" fill="#1B1B14" opacity="0.19"/>
+  <circle cx="683" cy="217" r="68" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.31"/>
+  <circle cx="211" cy="226" r="58" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.23"/>
+  <circle cx="283" cy="392" r="55" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.28"/>
+  <circle cx="714" cy="127" r="48" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.38"/>
+  <path d="M89 504L738 305" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M328 457L497 262" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M721 500L129 64" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M131 45L530 239" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M34 293L60 38" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M211 589L70 127" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M49 502L56 566" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M734 286L681 496" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M720 339L322 521" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">DASHBOARD / REPLAY</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

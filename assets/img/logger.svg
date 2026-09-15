@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="MULTI-SENSOR LOGGER">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="463" width="800" height="101" fill="#000" opacity="0.07"/>
+  <rect x="0" y="476" width="800" height="87" fill="#000" opacity="0.06"/>
+  <rect x="0" y="194" width="800" height="53" fill="#000" opacity="0.07"/>
+  <rect x="0" y="487" width="800" height="110" fill="#000" opacity="0.06"/>
+  <rect x="0" y="190" width="800" height="42" fill="#000" opacity="0.05"/>
+  <rect x="185" y="86" width="217" height="70" fill="#1B1B14" opacity="0.21"/>
+  <rect x="445" y="271" width="247" height="100" fill="#1B1B14" opacity="0.21"/>
+  <rect x="104" y="70" width="89" height="108" fill="#1B1B14" opacity="0.26"/>
+  <rect x="70" y="277" width="163" height="172" fill="#1B1B14" opacity="0.21"/>
+  <rect x="240" y="305" width="139" height="135" fill="#1B1B14" opacity="0.19"/>
+  <rect x="127" y="274" width="247" height="131" fill="#1B1B14" opacity="0.17"/>
+  <rect x="125" y="170" width="160" height="118" fill="#1B1B14" opacity="0.19"/>
+  <circle cx="110" cy="115" r="39" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.27"/>
+  <circle cx="377" cy="277" r="34" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.39"/>
+  <circle cx="80" cy="189" r="52" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.38"/>
+  <circle cx="133" cy="320" r="74" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.40"/>
+  <path d="M406 429L74 579" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M644 203L797 276" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M344 89L318 340" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M15 419L776 120" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M137 252L723 103" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M11 61L476 498" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M181 572L192 458" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M521 195L749 134" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M429 392L119 404" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">MULTI-SENSOR LOGGER</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

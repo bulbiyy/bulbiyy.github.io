@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="DETI MBA / PROTOTYPE">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="589" width="800" height="52" fill="#000" opacity="0.03"/>
+  <rect x="0" y="243" width="800" height="89" fill="#000" opacity="0.05"/>
+  <rect x="0" y="364" width="800" height="51" fill="#000" opacity="0.06"/>
+  <rect x="0" y="165" width="800" height="30" fill="#000" opacity="0.08"/>
+  <rect x="0" y="175" width="800" height="45" fill="#000" opacity="0.03"/>
+  <rect x="522" y="305" width="84" height="147" fill="#1B1B14" opacity="0.27"/>
+  <rect x="204" y="394" width="134" height="80" fill="#1B1B14" opacity="0.16"/>
+  <rect x="498" y="328" width="84" height="161" fill="#1B1B14" opacity="0.27"/>
+  <rect x="353" y="215" width="172" height="178" fill="#1B1B14" opacity="0.26"/>
+  <rect x="55" y="197" width="154" height="169" fill="#1B1B14" opacity="0.14"/>
+  <rect x="326" y="139" width="124" height="67" fill="#1B1B14" opacity="0.20"/>
+  <rect x="244" y="47" width="117" height="123" fill="#1B1B14" opacity="0.12"/>
+  <circle cx="454" cy="310" r="88" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.40"/>
+  <circle cx="287" cy="269" r="46" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.26"/>
+  <circle cx="488" cy="358" r="75" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.26"/>
+  <circle cx="565" cy="80" r="72" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.30"/>
+  <path d="M530 73L100 16" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M761 465L119 227" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M654 543L340 351" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M700 136L418 106" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M672 283L265 123" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M409 366L497 584" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M333 57L415 67" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M477 264L412 384" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M708 240L576 172" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">DETI MBA / PROTOTYPE</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>

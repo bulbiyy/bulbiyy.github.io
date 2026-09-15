@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="SWE">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDD9CC"/><stop offset="1" stop-color="#9C978A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect x="0" y="168" width="800" height="83" fill="#000" opacity="0.06"/>
+  <rect x="0" y="288" width="800" height="91" fill="#000" opacity="0.07"/>
+  <rect x="0" y="486" width="800" height="95" fill="#000" opacity="0.04"/>
+  <rect x="0" y="540" width="800" height="60" fill="#000" opacity="0.07"/>
+  <rect x="0" y="14" width="800" height="77" fill="#000" opacity="0.08"/>
+  <rect x="478" y="75" width="117" height="119" fill="#1B1B14" opacity="0.27"/>
+  <rect x="83" y="263" width="184" height="173" fill="#1B1B14" opacity="0.11"/>
+  <rect x="376" y="316" width="207" height="89" fill="#1B1B14" opacity="0.22"/>
+  <rect x="417" y="51" width="119" height="82" fill="#1B1B14" opacity="0.12"/>
+  <rect x="60" y="272" width="121" height="147" fill="#1B1B14" opacity="0.17"/>
+  <rect x="194" y="135" width="250" height="69" fill="#1B1B14" opacity="0.18"/>
+  <rect x="280" y="78" width="130" height="113" fill="#1B1B14" opacity="0.22"/>
+  <circle cx="674" cy="453" r="35" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.21"/>
+  <circle cx="567" cy="366" r="75" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.22"/>
+  <circle cx="229" cy="354" r="78" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.24"/>
+  <circle cx="542" cy="336" r="75" fill="none" stroke="#1B1B14" stroke-width="2" opacity="0.25"/>
+  <path d="M496 395L272 27" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M95 162L735 507" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M2 503L71 563" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M613 534L227 585" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M623 326L569 115" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M185 174L641 356" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M340 354L780 313" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M251 105L172 67" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <path d="M178 439L383 163" stroke="#1B1B14" stroke-width="1" opacity=".14"/>
+  <rect x="0" y="548" width="800" height="52" fill="#13130D" opacity=".78"/>
+  <text x="22" y="580" fill="#CFCBBC" style="font:16px 'JetBrains Mono',monospace;letter-spacing:.12em">SWE</text>
+  <text x="778" y="580" text-anchor="end" fill="#8B8578" style="font:13px 'JetBrains Mono',monospace;letter-spacing:.12em">REPLACE ME</text>
+</svg>
