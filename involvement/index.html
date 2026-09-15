@@ -49,9 +49,15 @@
     </div>
   </aside>
 
+  <button class="scrim" id="scrim" tabindex="-1" aria-hidden="true"></button>
+
   <div class="main">
     <header class="topbar">
+      <button class="topbar-toggle" id="openBtn" aria-label="Show menu" aria-expanded="false" aria-controls="sidebar">
+        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M0 1h14M0 6h14M0 11h14"/></svg>
+      </button>
       <div class="path"><span class="p">&gt;</span> ls involvement</div>
+      <div class="pagename">INVOLVEMENT</div>
       <div class="right">
         <span>SYSTEM STATUS: ONLINE<span class="status-dot"></span></span>
         <span>TIME: <span id="clock">--:--:--</span></span>
@@ -202,10 +208,6 @@
     </footer>
   </div>
 </div>
-
-<button class="opener" id="openBtn" aria-label="Show menu" aria-expanded="false" aria-controls="sidebar">
-  <svg width="14" height="12" viewBox="0 0 14 12" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M0 1h14M0 6h14M0 11h14"/></svg>
-</button>
 
 <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Details" hidden>
   <div class="modal-box">

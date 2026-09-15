@@ -6,20 +6,36 @@
   var shell = document.getElementById('shell');
   var closeBtn = document.getElementById('closeBtn');
   var openBtn = document.getElementById('openBtn');
+  var scrim = document.getElementById('scrim');
+  var phone = function () { return window.innerWidth < 760; };
 
   function setOpen(open) {
     shell.classList.toggle('collapsed', !open);
     closeBtn.setAttribute('aria-expanded', String(open));
     openBtn.setAttribute('aria-expanded', String(open));
-    try { localStorage.setItem('av_menu', open ? '1' : '0'); } catch (e) {}
+    if (scrim) scrim.setAttribute('aria-hidden', String(!open));
+    // on phones the drawer sits over the page, so freeze the page behind it
+    document.body.style.overflow = (open && phone()) ? 'hidden' : '';
+    if (!phone()) { try { localStorage.setItem('av_menu', open ? '1' : '0'); } catch (e) {} }
   }
   closeBtn.addEventListener('click', function () { setOpen(false); openBtn.focus(); });
   openBtn.addEventListener('click', function () { setOpen(true); closeBtn.focus(); });
 
+  if (scrim) scrim.addEventListener('click', function () { setOpen(false); openBtn.focus(); });
+
   var saved = null;
   try { saved = localStorage.getItem('av_menu'); } catch (e) {}
-  if (window.innerWidth < 760) shell.classList.add('collapsed');
-  else if (saved === '0') setOpen(false);
+  if (phone() || saved === '0') setOpen(false);
+
+  // switching between the phone and desktop layouts mid-session
+  var wasPhone = phone();
+  window.addEventListener('resize', function () {
+    var isPhone = phone();
+    if (isPhone === wasPhone) return;
+    wasPhone = isPhone;
+    if (isPhone) setOpen(false);
+    else setOpen(saved !== '0');
+  });
 
   /* ---------- clock ---------- */
   var start = Date.now() - (7 * 3600 + 42 * 60 + 11) * 1000;
@@ -52,7 +68,7 @@
     if (!modal || modal.hidden) return;
     modal.hidden = true;
     modal.querySelector('.modal-body').innerHTML = '';
-    document.body.style.overflow = '';
+    document.body.style.overflow = (phone() && !shell.classList.contains('collapsed')) ? 'hidden' : '';
     if (lastFocus) lastFocus.focus();
   }
   if (modal) {
@@ -62,7 +78,7 @@
   document.addEventListener('keydown', function (e) {
     if (e.key !== 'Escape') return;
     if (modal && !modal.hidden) { closeModal(); return; }
-    if (window.innerWidth < 760 && !shell.classList.contains('collapsed')) setOpen(false);
+    if (!shell.classList.contains('collapsed')) { setOpen(false); openBtn.focus(); }
   });
 
   document.querySelectorAll('[data-modal]').forEach(function (el) {

@@ -81,13 +81,21 @@ img{display:block;max-width:100%}
 .sb-legal a{font-size:9px;letter-spacing:.08em;color:#56544A}
 .sb-legal a:hover{color:var(--green)}
 
-.opener{
-  position:fixed;top:14px;left:14px;z-index:40;
-  width:34px;height:34px;background:var(--panel);color:#E6E3D7;display:grid;place-items:center;
-  opacity:0;pointer-events:none;transform:translateX(-8px);
-  transition:opacity .25s,transform .25s;
+/* inline menu button, lives in the top bar next to the page name */
+.topbar-toggle{
+  display:none;flex:none;width:30px;height:30px;margin-right:-4px;
+  border:1px solid var(--line);color:#3E3D33;background:var(--card);
+  place-items:center;
 }
-.shell.collapsed ~ .opener{opacity:1;pointer-events:auto;transform:none}
+.shell.collapsed .topbar-toggle{display:grid}
+.topbar-toggle:hover{border-color:var(--green);color:var(--green)}
+
+/* drawer scrim (phones only) */
+.scrim{
+  display:none;position:fixed;inset:0;z-index:45;border:0;padding:0;
+  background:rgba(14,14,9,.5);opacity:0;pointer-events:none;
+  transition:opacity .3s;
+}
 
 /* ---------- main ---------- */
 .main{min-width:0;display:flex;flex-direction:column}
@@ -100,7 +108,8 @@ img{display:block;max-width:100%}
 .topbar .path{color:var(--ink)}
 .topbar .path .p{color:var(--mute)}
 .status-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-left:6px;vertical-align:1px}
-.topbar .right{display:flex;gap:22px}
+.topbar .right{display:flex;gap:22px;margin-left:auto}
+.pagename{display:none;font-family:"Space Grotesk",sans-serif;font-weight:500;font-size:13px;letter-spacing:.06em;color:var(--ink)}
 .view{padding:34px 26px 44px;flex:1}
 .prompt{font-size:11px;color:var(--mute);letter-spacing:.06em;margin-bottom:22px}
 .prompt .c{color:var(--green)}
@@ -280,26 +289,109 @@ img{display:block;max-width:100%}
   .inv{grid-template-columns:1fr;gap:18px}
   .inv.flip .inv-media{order:0}
 }
+/* ===================================================================
+   PHONE VERSION — everything below 760px switches to the mobile shell
+   =================================================================== */
 @media (max-width:760px){
+  :root{--sidebar-w:min(82vw,290px)}
+  body{font-size:12.5px}
+
+  /* menu becomes a slide-in drawer over the content */
   .shell{grid-template-columns:0 minmax(0,1fr)}
   .sidebar{
     position:fixed;left:0;top:0;z-index:50;width:var(--sidebar-w);
-    transform:translateX(-100%);transition:transform .34s cubic-bezier(.4,0,.2,1);
+    transform:translateX(-100%);
+    transition:transform .34s cubic-bezier(.4,0,.2,1);
   }
-  .shell:not(.collapsed) .sidebar{transform:none;box-shadow:0 0 0 100vmax rgba(15,15,9,.45)}
+  .shell:not(.collapsed) .sidebar{transform:none}
   .shell.collapsed .sb-inner{opacity:1}
-  .opener{opacity:1;pointer-events:auto;transform:none}
-  .shell:not(.collapsed) ~ .opener{opacity:0;pointer-events:none}
-  .topbar{padding-left:60px}
-  .topbar .right span:nth-child(3){display:none}
-  .view{padding:26px 16px 36px}
+  .sb-inner{padding-bottom:calc(18px + env(safe-area-inset-bottom))}
+  .nav a{padding:12px 18px;font-size:12px}
+  .sb-foot{gap:18px}
+  .scrim{display:block}
+  .shell:not(.collapsed) .scrim{opacity:1;pointer-events:auto}
+
+  /* compact app bar: menu button, then the page name */
+  .topbar{padding:10px 14px;gap:12px}
+  .topbar-toggle{display:grid}
+  .topbar .path{display:none}
+  .pagename{display:block}
+  .topbar .right{gap:0}
+  .topbar .right span{display:none}
+  .topbar .right span:first-child{
+    display:block;width:8px;height:8px;border-radius:50%;background:var(--green);
+    font-size:0;color:transparent;overflow:hidden;
+  }
+  .topbar .right span:first-child .status-dot{display:none}
+
+  .view{padding:22px 16px 34px}
+  .h2{font-size:24px}
+  .sub{font-size:12px;line-height:1.85}
+  .two{grid-template-columns:1fr;gap:26px}
+
+  /* about: photo first, then the text */
+  .two > div:last-child{order:-1}
+  .photo{max-width:320px;margin:0 auto}
+
+  /* projects: stacked cards, sticky search, swipeable filter strip */
+  .toolbar{
+    grid-template-columns:1fr;gap:12px;position:sticky;top:51px;z-index:15;
+    margin-left:-16px;margin-right:-16px;border-left:0;border-right:0;
+    padding:12px 16px;
+  }
+  .search input{font-size:16px} /* stops iOS zooming on focus */
+  .filters{
+    justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;
+    margin:0 -16px;padding:0 16px 2px;scrollbar-width:none;
+  }
+  .filters::-webkit-scrollbar{display:none}
+  .filters button{padding:8px 12px;font-size:9.5px;flex:none}
+  .count{text-align:left}
   .row{grid-template-columns:1fr}
-  .row .shot{border-right:0;border-bottom:1px solid var(--line-soft);height:170px}
-  .toolbar{grid-template-columns:1fr}
-  .filters{justify-content:flex-start}
-  .contact-grid,.gallery,.specs{grid-template-columns:1fr}
+  .row .shot{border-right:0;border-bottom:1px solid var(--line-soft);height:180px}
+  .row .rbody{padding:14px 16px 16px}
+  .row .rhead{flex-wrap:wrap;gap:6px}
+  .row .year{margin-left:0;width:100%;order:-1}
+  .row .open{font-size:9px}
+
+  /* involvement: single column, image always on top */
+  .inv{grid-template-columns:1fr;gap:16px}
+  .inv.flip .inv-media{order:0}
+  .inv .inv-media img{aspect-ratio:16/10}
+  .divider{margin:26px 0}
+
+  /* research + resume */
+  .notebook{grid-template-columns:1fr}
+  .scholar{flex-direction:column;align-items:flex-start;gap:14px}
+  .scholar .btn{margin-left:0;width:100%;justify-content:space-between}
+  .tl{gap:20px}
+
+  .contact-grid{grid-template-columns:1fr}
+  .gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .specs{grid-template-columns:1fr}
   .specs div{border-right:0;border-bottom:1px solid var(--line-soft)}
+  .specs div:last-child{border-bottom:0}
+
+  /* popups become bottom sheets */
+  .modal{padding:0;align-items:flex-end}
+  .modal-box{
+    width:100%;max-height:92vh;border-left:0;border-right:0;border-bottom:0;
+    animation:sheet .3s cubic-bezier(.2,.8,.3,1) both;
+  }
+  .modal-head{padding:14px 16px}
+  .modal-close{width:34px;height:34px}
+  .modal-body{padding:18px 16px calc(28px + env(safe-area-inset-bottom))}
+
+  .pagefoot{flex-direction:column;gap:6px;padding:16px}
 }
+@keyframes sheet{from{transform:translateY(24px);opacity:.4}to{transform:none;opacity:1}}
+
+@media (max-width:420px){
+  .h2{font-size:21px}
+  .row .shot{height:150px}
+  .gallery{grid-template-columns:1fr}
+}
+
 @media (prefers-reduced-motion:reduce){
   *{animation-duration:.01ms !important;transition-duration:.01ms !important}
 }
