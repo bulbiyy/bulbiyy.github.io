@@ -1,5 +1,3 @@
-/* AV_ — shared stylesheet */
-
 :root{
   --paper:#E9E6DB;
   --card:#F1EFE7;
@@ -149,21 +147,18 @@ img{display:block;max-width:100%}
 .btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 rgba(22,22,15,.14)}
 
 /* photo with tape */
-.photo{position:relative}
-.photo img,.photo svg{width:100%;height:auto;border:1px solid var(--line-soft);filter:grayscale(1) contrast(1.02)}
-.tape{
-  position:absolute;width:64px;height:20px;
-  background:rgba(224,219,200,.78);border:1px solid rgba(160,154,134,.5);
-  box-shadow:0 1px 2px rgba(0,0,0,.08);
-}
-.tape.tl{top:-9px;left:-14px;transform:rotate(-24deg)}
-.tape.br{bottom:-9px;right:-14px;transform:rotate(-24deg)}
 
-.info{background:var(--card);border:1px solid var(--line-soft);padding:14px 16px;margin-top:20px;display:flex;flex-direction:column;gap:13px}
-.info .r{display:flex;gap:12px;align-items:flex-start}
-.info .r svg{flex:none;margin-top:2px;color:#5E5C50}
-.info .k{font-size:9px;letter-spacing:.14em;color:var(--mute)}
-.info .v{font-size:11px;color:#2C2B23}
+.photo {position: relative;}
+.photo img,
+.photo svg {width: 100%; height: auto; border: 1px solid var(--line-soft); filter: none; -webkit-filter: none;}
+.tape {position: absolute; z-index: 10; width: 64px; height: 20px; background: rgba(224,219,200,.78); border: 1px solid rgba(160,154,134,.5); box-shadow: 0 1px 2px rgba(0,0,0,.08); pointer-events: none;}
+.tape.tl {top: -9px; left: -14px; transform: rotate(-24deg);}
+.tape.br {bottom: -9px; right: -14px; transform: rotate(-24deg);}
+.info {background: var(--card); border: 1px solid var(--line-soft); padding: 14px 16px; margin-top: 20px; display: flex; flex-direction: column; gap: 13px;}
+.info .r {display: flex; gap: 12px; align-items: flex-start;}
+.info .r svg {flex: none; margin-top: 2px; color: #5E5C50;}
+.info .k {font-size: 9px; letter-spacing: .14em; color: var(--mute);}
+.info .v {font-size: 11px;color: #2C2B23;}
 
 /* ---------- projects ---------- */
 .toolbar{
