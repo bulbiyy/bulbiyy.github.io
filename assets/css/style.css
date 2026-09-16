@@ -135,7 +135,7 @@ img{display:block;max-width:100%}
 .tag.hw{border-color:#B6A98D;color:#6A5C3C}
 .chip{display:inline-block;border:1px solid var(--line);padding:5px 10px;font-size:9.5px;letter-spacing:.1em;background:var(--card)}
 .chip .dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--green);margin-right:6px;vertical-align:1px}
-.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:36px;align-items:start}
+.two{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:36px;align-items:start}
 .btn{
   display:inline-flex;align-items:center;gap:26px;
   padding:12px 18px;background:var(--card);border:1px solid var(--line);
@@ -246,7 +246,7 @@ img{display:block;max-width:100%}
 .contact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:8px}
 .cbox{background:var(--card);border:1px solid var(--line-soft);padding:16px 18px;display:block}
 .cbox .k{font-size:9px;letter-spacing:.14em;color:var(--mute)}
-.cbox .v{font-size:13px;margin-top:8px}
+.cbox .v{font-size:13px;margin-top:12px}
 .cbox:hover{border-color:var(--green)}
 .log{background:var(--panel);color:#BFBBAC;padding:14px 16px;font-size:10px;line-height:2}
 .log .h{color:#6E6B5E;letter-spacing:.08em;margin-bottom:6px}
@@ -285,6 +285,7 @@ img{display:block;max-width:100%}
 /* ---------- responsive ---------- */
 @media (max-width:1080px){
   .two{grid-template-columns:1fr}
+  .notebook{grid-template-columns:repeat(2,minmax(0,1fr))}
   .inv{grid-template-columns:1fr;gap:18px}
   .inv.flip .inv-media{order:0}
 }
