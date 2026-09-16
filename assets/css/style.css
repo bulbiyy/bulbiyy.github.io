@@ -284,7 +284,7 @@ img{display:block;max-width:100%}
 
 /* ---------- responsive ---------- */
 @media (max-width:1080px){
-  .two,.notebook{grid-template-columns:1fr}
+  .two{grid-template-columns:1fr}
   .inv{grid-template-columns:1fr;gap:18px}
   .inv.flip .inv-media{order:0}
 }
