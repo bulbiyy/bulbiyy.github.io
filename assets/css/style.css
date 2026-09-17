@@ -112,7 +112,7 @@ img{display:block;max-width:100%}
 .status-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-left:6px;vertical-align:1px}
 .topbar .right{display:flex;gap:22px;margin-left:auto}
 .pagename{display:none;font-family:"Space Grotesk",sans-serif;font-weight:500;font-size:13px;letter-spacing:.06em;color:var(--ink)}
-.view{padding:34px 26px 44px;flex:1}
+.view{padding:34px 48px 44px;flex:1}
 .prompt{font-size:11px;color:var(--mute);letter-spacing:.06em;margin-bottom:22px}
 .prompt .c{color:var(--green)}
 .pagefoot{
