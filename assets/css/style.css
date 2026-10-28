@@ -460,3 +460,26 @@ img{display:block;max-width:100%}
     grid-template-columns: 1fr;
   }
 }
+
+/* try bigger font */
+
+body {
+  font-size: 14px;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.tl h4 {
+  font-size: 16px;
+}
+
+.tl .when {
+  font-size: 11.5px;
+}
+
+.label {
+  font-size: 11.5px;
+}
