@@ -401,3 +401,62 @@ img{display:block;max-width:100%}
 .row[role="button"],.inv[role="button"]{cursor:pointer}
 .row .rhead .h3{margin:0}
 .inv .h3{margin:0 0 6px}
+
+
+/* Resume technical skills */
+.resume-skills-section {
+  margin-top: 34px;
+}
+
+.resume-skills {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.skill-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.skill-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--green);
+  color: var(--green);
+  font-size: 17px;
+}
+
+.skill-content {
+  min-width: 0;
+}
+
+.skill-content h4 {
+  margin: 2px 0 8px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.skill-content p {
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 760px) {
+  .resume-skills {
+    grid-template-columns: 1fr;
+  }
+}

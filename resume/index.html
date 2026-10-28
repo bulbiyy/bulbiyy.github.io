@@ -5,16 +5,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Resume — Alina Vasina</title>
-  <meta name="description" content="Alina Vasina — computer engineering student at the University of Florida. Education and experience.">
+  <meta name="description" content="Alina Vasina — Computer Engineering student at the University of Florida.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/style.css?v=2">
 </head>
+
 <body>
 <div class="shell" id="shell">
+
   <aside class="sidebar" id="sidebar">
     <div class="sb-inner">
+
       <div class="brand">
         <div class="brand-mark">AV<span class="caret">_</span></div>
         <button class="sb-toggle" id="closeBtn" aria-label="Hide menu" aria-expanded="true" aria-controls="sidebar">
@@ -24,7 +27,7 @@
         </button>
       </div>
 
-      <nav class="nav" aria-label="Sections">
+      <nav class="nav" aria-label="Main navigation">
         <a href="../about/"><span class="idx">01</span>_ABOUT</a>
         <a href="../projects/"><span class="idx">02</span>_EXPERIENCE</a>
         <a href="../research/"><span class="idx">03</span>_RESEARCH</a>
@@ -42,26 +45,9 @@
           <b>GAINESVILLE, FL</b>
         </div>
 
-        <div class="socials">
-          <a href="https://github.com/bulbiyy" aria-label="GitHub">
-            <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor">
-              <path d="M8 0C3.6 0 0 3.6 0 8a8 8 0 0 0 5.5 7.6c.4.1.5-.2.5-.4v-1.4c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.9 2.4.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-3.9 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8a7.5 7.5 0 0 1 4 0c1.5-1 2.2-.8 2.2-.8.5 1.1.2 1.9.1 2.1.5.5.8 1.2.8 2.1 0 3-1.8 3.7-3.6 3.9.3.3.5.8.5 1.5v2.2c0 .2.1.5.6.4A8 8 0 0 0 16 8c0-4.4-3.6-8-8-8Z"/>
-            </svg>
-          </a>
-          <a href="https://www.linkedin.com/in/alina-vasina/" aria-label="LinkedIn">
-            <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor">
-              <path d="M3.4 5H.9v9h2.5V5ZM2.1 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM15 9.3C15 6.6 13.6 5 11.6 5c-1.1 0-1.9.6-2.3 1.2V5H6.9v9h2.5V9.4c0-1.1.4-1.9 1.4-1.9s1.3.8 1.3 1.9V14H15V9.3Z"/>
-            </svg>
-          </a>
-          <a href="mailto:alina.andreevna.vasina@gmail.com" aria-label="Email">
-            <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2">
-              <rect x="1" y="3" width="14" height="10"/>
-              <path d="m1 4 7 5 7-5"/>
-            </svg>
-          </a>
+        <div class="sb-legal">
+          <a href="../privacy/">PRIVACY POLICY</a>
         </div>
-
-        <div class="sb-legal"><a href="../privacy/">PRIVACY POLICY</a></div>
       </div>
     </div>
   </aside>
@@ -69,14 +55,17 @@
   <button class="scrim" id="scrim" tabindex="-1" aria-hidden="true"></button>
 
   <div class="main">
+
     <header class="topbar">
       <button class="topbar-toggle" id="openBtn" aria-label="Show menu" aria-expanded="false" aria-controls="sidebar">
         <svg width="14" height="12" viewBox="0 0 14 12" fill="none" stroke="currentColor" stroke-width="1.3">
           <path d="M0 1h14M0 6h14M0 11h14"/>
         </svg>
       </button>
+
       <div class="path"><span class="p">&gt;</span> resume.txt</div>
       <div class="pagename">RESUME</div>
+
       <div class="right">
         <span>SYSTEM STATUS: ONLINE<span class="status-dot"></span></span>
         <span>TIME: <span id="clock">--:--:--</span></span>
@@ -86,6 +75,7 @@
     </header>
 
     <main class="view resume-view">
+
       <div class="resume-intro">
         <div>
           <h1 class="h2">Resume</h1>
@@ -94,9 +84,11 @@
       </div>
 
       <div class="two">
+
         <div>
           <section>
             <div class="label">EDUCATION</div>
+
             <div class="tl">
               <div class="e">
                 <div class="when">2024 — 2028 (EXPECTED)</div>
@@ -117,70 +109,76 @@
               </div>
             </div>
           </section>
-
-          <section>
-            <div class="label">TECHNICAL SKILLS</div>
-            <div>
-              <div>
-                <div class="k">LANGUAGES</div>
-                <p>C, C++, VHDL, MATLAB, Python, JavaScript, SQL, Swift, C#</p>
-              </div>
-              <div>
-                <div class="k">HARDWARE</div>
-                <p>ATxmega128A1U, Arduino, RISC-V, SPI, I2C, USART, ADC, DMA, IMUs, GPS</p>
-              </div>
-              <div>
-                <div class="k">TOOLS</div>
-                <p>Quartus Prime, Microchip Studio, Git, GitHub, SerialPlot, PuTTY, Tera Term, Excel, Figma, Unity</p>
-              </div>
-            </div>
-          </section>
         </div>
 
         <div>
           <section>
             <div class="label">EXPERIENCE</div>
+
             <div class="tl">
               <div class="e">
-                <div class="when">NOV 2025 — PRESENT</div>
-                <h4>Undergraduate Teaching Assistant, University of Florida</h4>
-                <p>Lead weekly programming labs and hold office hours to help students understand programming concepts. Assist with developing, grading, and proctoring exams and assignments for a course serving more than 800 students.</p>
+                <div class="when">MAY 2026 - ONGOING</div>
+                <h4>Undergraduate Research Assistant, University of Florida</h4>
+                <p>Research motion data privacy in extended reality (XR), contributing to a systematic analysis of 134 research papers on privacy risks, attacks, and defenses.</p>
               </div>
 
               <div class="e">
-                <div class="when">2026</div>
-                <h4>Undergraduate Research Assistant, University of Florida</h4>
-                <p>Conduct research on motion data privacy in extended reality (XR). Contributed to a systematic analysis of 134 research papers examining privacy risks, attacks, defenses, and gaps in XR motion data research.</p>
+                <div class="when">NOV 2025 — MAY 2026</div>
+                <h4>Undergraduate Teaching Assistant, University of Florida</h4>
+                <p>Lead weekly programming labs and hold office hours to help students understand programming concepts. Assist with developing, grading, and proctoring assessments for a course serving more than 800 students.</p>
               </div>
 
               <div class="e">
                 <div class="when">AUG 2025 — OCT 2026</div>
-                <h4>Event &amp; Technical Staff, Stephen C. O'Connell Center</h4>
-                <p>Supported live event production and technical operations for university athletics, performances, and ceremonies. Set up, operated, and troubleshot audio, video, lighting, and stage equipment.</p>
+                <h4>Event &amp; Technical Staff, Stephen C. O’Connell Center</h4>
+                <p>Supported live event production and technical operations for university athletics, performances, and ceremonies. Set up and troubleshot audio, video, lighting, and stage equipment.</p>
               </div>
 
               <div class="e">
-                <div class="when">DATES TO CONFIRM</div>
-                <h4>PR &amp; SAM Lead, Heart Startup</h4>
-                <p>Lead public relations and SAM-related activities for a startup, supporting communication, outreach, and the company's public presence.</p>
-              </div>
-            </div>
-          </section>
-
-          <section>
-            <div class="label">RESEARCH PUBLICATION</div>
-            <div class="tl">
-              <div class="e">
-                <div class="when">SEPT 2026</div>
-                <h4>SoK: Motion Data Privacy in Extended Reality</h4>
-                <p>Co-authored a systematization of knowledge analyzing 134 papers on privacy risks, attacks, and defenses related to motion data in extended reality.</p>
+                <div class="when">JAN 2020 - AUG 2022</div>
+                <h4>PR &amp; SMM Leader, Heart Startup</h4>
+                <p>Supported public relations, communication, and outreach to strengthen the startup’s public presence.</p>
               </div>
             </div>
           </section>
         </div>
+
       </div>
 
+      <section class="resume-skills-section">
+        <div class="label">TECHNICAL SKILLS</div>
+
+        <div class="resume-skills">
+
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">⌘</div>
+            <div class="skill-content">
+              <h4>Languages</h4>
+              <p>C, C++, Python, JavaScript, SQL, Swift, C#, VHDL, MATLAB</p>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">⌁</div>
+            <div class="skill-content">
+              <h4>Hardware &amp; Embedded</h4>
+              <p>ATxmega128A1U, Arduino, RISC-V, SPI, I2C, USART, ADC, DMA, IMUs, GPS</p>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">⚙</div>
+            <div class="skill-content">
+              <h4>Tools &amp; Software</h4>
+              <p>Quartus Prime, Microchip Studio, Git, GitHub, SerialPlot, PuTTY, Tera Term, Excel, Figma, Unity</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
       <p class="resume-note">LAST UPDATED: OCTOBER 2026</p>
+
     </main>
 
     <footer class="pagefoot">
@@ -188,6 +186,7 @@
       <span></span>
       <span><a href="../privacy/">PRIVACY POLICY</a></span>
     </footer>
+
   </div>
 </div>
 
